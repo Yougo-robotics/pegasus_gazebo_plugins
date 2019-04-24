@@ -26,7 +26,7 @@ Closed loop chains
 Allow closed loop chains - this can be achieved by allowing two different joints to have the same child link but different parents
 SDF supports something similar (see the PR2 gripper closed loop here).
 It does not seem like this will require a syntax change.
-
+<br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram2.png) 
 ## Building
 In order to install the pegasus_gazebo_plugins, clone the latest version from this repository into your catkin workspace and compile the package using ROS.
 
@@ -52,11 +52,7 @@ This closed_loop_plugin just like a button that connects two joints,
      </gazebo>
 ```
 exmaple:
-The following is a four-link closed-loop chain
-<br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/paraller_link1.png) 
-<br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/paraller_link2.png) 
-<br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/paraller_link3.png) 
-
+<br>The following is a four-link closed-loop chain
 ```XML
      <gazebo>
        <plugin name="Myrobot_ClosedLoopPlugin" filename="libpegasus_gazebo_closed_loop_plugin.so">
@@ -66,6 +62,9 @@ The following is a four-link closed-loop chain
        </plugin>
      </gazebo>
 ```
+<br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram1.png) 
+
+
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
 
