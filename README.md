@@ -37,6 +37,7 @@ In order to install the pegasus_gazebo_plugins, clone the latest version from th
 
 in yours robot.urdf
 add:
+```XML
      <gazebo>
        <plugin name="Myrobot_ClosedLoopPlugin" filename="libpegasus_gazebo_closed_loop_plugin.so">
            <joint>lf_stick2_leg_joint</joint>
@@ -44,9 +45,10 @@ add:
            <parent>lf_stick2_link</parent>
        </plugin>
      </gazebo>
-
+```
 
 My example：
+```XML
      <gazebo>
        <plugin name="lf_ClosedLoopPlugin" filename="libpegasus_gazebo_closed_loop_plugin.so">
            <joint>lf_stick2_leg_joint</joint>
@@ -54,6 +56,9 @@ My example：
            <parent>lf_stick2_link</parent>
        </plugin>
      </gazebo>
+```
 
+## Bugs & Feature Requests
+Please report bugs and request features using the Issue Tracker.
 
 
