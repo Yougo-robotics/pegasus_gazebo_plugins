@@ -53,8 +53,19 @@ This closed_loop_plugin just like a button that connects two joints,
 ```
 exmaple:
 The following is a four-link closed-loop chain
-<br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/parallel_link.png) 
+<br>![parallel_link1](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/parallel_link1.png) 
+![parallel_link1](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/parallel_link2.png) 
+![parallel_link1](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/parallel_link3.png) 
 
+```XML
+     <gazebo>
+       <plugin name="Myrobot_ClosedLoopPlugin" filename="libpegasus_gazebo_closed_loop_plugin.so">
+           <joint>red_green_joint</joint>
+           <child>red_link</child>
+           <parent>green_link</parent>
+       </plugin>
+     </gazebo>
+```
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
 
