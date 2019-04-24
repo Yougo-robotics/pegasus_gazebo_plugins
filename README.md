@@ -37,8 +37,9 @@ In order to install the pegasus_gazebo_plugins, clone the latest version from th
 
 ## Usage
 This closed_loop_plugin just like a button that connects two joints,
-<br>label <joint> is like a button represents that you want to add new joints 
-<br>label <child> and label <parent> represents the two joints to be connected，respectively the parent joint and the child joint of the newly added joint
+<br>\<joint> the name of the added joint
+<br>\<child> the name of child coordinate that added joint
+<br>\<parent> the name of parent coordinate that added joint
 
 <br>add to your robot.urdf：
 
