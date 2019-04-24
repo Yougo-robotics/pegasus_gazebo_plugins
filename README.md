@@ -1,7 +1,7 @@
 # pegasus_gazebo_plugins
 
 ## Overview
-This is a gazebo_plugin ROS package developed for our quadruped robot "pegasus",closed_loop_plugin used 
+This is a gazebo_plugin ROS package developed for our quadruped robot "pegasus",closed_loop_plugin is to solve only one of the plugins is announced here,to solve the problem that URDF not support Closed loop chains 
 
 *Author: Angel_jj
 <br>*Maintainer: Angel_jj, 522483402@qqcom
