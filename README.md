@@ -63,8 +63,13 @@ exmaple:
      </gazebo>
 ```
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram1.png) 
-
-
+### note：
+<br>
+You can change the position where two joints are connected in closed_loop_plugin.cpp.
+```cpp
+math::Pose jointOrigin(0.00,0.00,0.00,0.00,-0.00,0.00);
+```
+<br>math::Pose jointOrigin(x,y,z,roll,pitch,yaw);
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
 
