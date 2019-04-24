@@ -6,7 +6,8 @@ This is a gazebo_plugin ROS package developed for our quadruped robot "pegasus",
 *Author: Angel_jj
 <br>*Department ：The Chinese University of Hong Kong,Shenzhen，IRIM(Institute of Robotics and Intelligent Manufacturing)
 <br>*Maintainer: Angel_jj, 522483402@.qqcom
-<br>Introduction
+
+## Introduction
 
 The URDF (Universal Robot Description Format) has not been updated in quite a while. Although it has served the ROS community admirably, it has several notable shortcomings.
 
@@ -35,9 +36,12 @@ In order to install the pegasus_gazebo_plugins, clone the latest version from th
 <br>catkin_make
 
 ## Usage
+This closed_loop_plugin just like a button that connects two joints,
+<br>label <joint> is like a button represents that you want to add new joints 
+<br>label <child> and label <parent> represents the two joints to be connected，respectively the parent joint and the child joint of the newly added joint
 
-in yours robot.urdf
-add:
+<br>add to your robot.urdf：
+
 ```XML
      <gazebo>
        <plugin name="Myrobot_ClosedLoopPlugin" filename="libpegasus_gazebo_closed_loop_plugin.so">
