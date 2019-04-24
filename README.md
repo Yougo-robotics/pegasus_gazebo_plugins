@@ -5,12 +5,31 @@ This is a gazebo_plugin ROS package developed for our quadruped robot "pegasus",
 
 *Author: Angel_jj
 <br>*Maintainer: Angel_jj, 522483402@qqcom
+Introduction
+
+The URDF (Universal Robot Description Format) has not been updated in quite a while. Although it has served the ROS community admirably, it has several notable shortcomings.
+
+URDF format
+
+Shortcomings
+Closed loop chains - The URDF is not as Universal as the name implies, e.g. it does not support closed loop chains.
+
+SDF Format
+
+The SDF or Scene Definition Format was defined for the Gazebo simulator and has become fairly well standardized for Gazebo. 
+Pros
+
+Closed loop chains
+
+Allow closed loop chains - this can be achieved by allowing two different joints to have the same child link but different parents
+SDF supports something similar (see the PR2 gripper closed loop here).
+It does not seem like this will require a syntax change.
 
 ## Building
 In order to install the pegasus_gazebo_plugins, clone the latest version from this repository into your catkin workspace and compile the package using ROS.
 
 <br>cd catkin_workspace/src
-<br>git clone https://github.com/wojiaojiao/pegasus_gazebo_plugins.git 
+<br>git clone https://github.com/wojiaojiao/pegasus_gazebo_plugins.git
 <br>cd ../
 <br>catkin_make
 
