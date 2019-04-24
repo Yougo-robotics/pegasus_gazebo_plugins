@@ -52,7 +52,7 @@ This closed_loop_plugin just like a button that connects two joints,
      </gazebo>
 ```
 exmaple:
-
+The following is a four-link closed-loop chain
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/parallel_link.png) 
 
 ## Bugs & Feature Requests
