@@ -4,8 +4,9 @@
 This is a gazebo_plugin ROS package developed for our quadruped robot "pegasus",closed_loop_plugin is to solve only one of the plugins is announced here,to solve the problem that URDF not support Closed loop chains 
 
 *Author: Angel_jj
-<br>*Maintainer: Angel_jj, 522483402@qqcom
-Introduction
+<br>*Department ：The Chinese University of Hong Kong,Shenzhen，IRIM(Institute of Robotics and Intelligent Manufacturing)
+<br>*Maintainer: Angel_jj, 522483402@.qqcom
+<br>Introduction
 
 The URDF (Universal Robot Description Format) has not been updated in quite a while. Although it has served the ROS community admirably, it has several notable shortcomings.
 
@@ -59,6 +60,6 @@ My example：
 ```
 
 ## Bugs & Feature Requests
-Please report bugs and request features using the Issue Tracker.
+Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
 
 
