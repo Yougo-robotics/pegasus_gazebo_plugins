@@ -53,6 +53,8 @@ This closed_loop_plugin just like a button that connects two joints,
 ```
 exmaple:
 
+<br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/bdlogo.gif) 
+
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
 
