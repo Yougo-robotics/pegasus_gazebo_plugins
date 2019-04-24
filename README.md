@@ -1,7 +1,7 @@
 # pegasus_gazebo_plugins
 
 ## Overview
-This is a gazebo_plugin ROS package developed for our quadruped robot "pegasus",closed_loop_plugin is to solve only one of the plugins is announced here,to solve the problem that URDF not support Closed loop chains 
+This is a gazebo_plugin ROS package developed for our quadruped robot "pegasus",closed_loop_plugin is one of the plugins only announced here,to solve the issuethat URDF not support Closed loop chains 
 
 *Author: Angel_jj
 <br>*Department ：The Chinese University of Hong Kong,Shenzhen，IRIM(Institute of Robotics and Intelligent Manufacturing)
@@ -41,23 +41,13 @@ add:
 ```XML
      <gazebo>
        <plugin name="Myrobot_ClosedLoopPlugin" filename="libpegasus_gazebo_closed_loop_plugin.so">
-           <joint>lf_stick2_leg_joint</joint>
-           <child>lf_leg_link</child>
-           <parent>lf_stick2_link</parent>
+           <joint>add_joint</joint>
+           <child>add_joint_child_link</child>
+           <parent>add_joint_parent_link</parent>
        </plugin>
      </gazebo>
 ```
-
-My example：
-```XML
-     <gazebo>
-       <plugin name="lf_ClosedLoopPlugin" filename="libpegasus_gazebo_closed_loop_plugin.so">
-           <joint>lf_stick2_leg_joint</joint>
-           <child>lf_leg_link</child>
-           <parent>lf_stick2_link</parent>
-       </plugin>
-     </gazebo>
-```
+exmaple:
 
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
