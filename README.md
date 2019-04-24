@@ -51,7 +51,7 @@ This closed_loop_plugin just like a button that connects two joints,
        </plugin>
      </gazebo>
 ```
-exmaple:
+### exmaple:
 <br>The following is a four-link closed-loop chain
 ```XML
      <gazebo>
@@ -70,6 +70,7 @@ You can change the position where two joints are connected in closed_loop_plugin
 math::Pose jointOrigin(0.00,0.00,0.00,0.00,-0.00,0.00);
 ```
 <br>math::Pose jointOrigin(x,y,z,roll,pitch,yaw);
+
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
 
