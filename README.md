@@ -10,8 +10,8 @@ This is a ROS package developed for our quadruped robot "pegasus" gazebo_plugin 
 ## Introduction
 
 The URDF (Universal Robot Description Format) served the ROS, it has several notable shortcomings.one is it does not support closed loop chains.
-
 The SDF (Simulation Description Format) served the gazebo, support closed loop chains - this can be achieved by allowing two different joints to have the same child link but different parents
+In fact，urdf parse
 <br>relationship here：
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram2.png) 
 ## Building
