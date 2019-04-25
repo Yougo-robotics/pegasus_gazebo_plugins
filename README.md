@@ -9,7 +9,7 @@ This is a ROS package developed for our quadruped robot "pegasus" gazebo_plugin 
 
 ## Introduction
 
-'Tutorial: Using a URDF in Gazebo'http://gazebosim.org/tutorials?tut=ros_urdf&cat=connect_ros
+`Tutorial: Using a URDF in Gazebo`http://gazebosim.org/tutorials?tut=ros_urdf&cat=connect_ros
 
 The Universal Robotic Description Format (URDF) is an XML file format used in ROS to describe all elements of a robot. To use a URDF file in Gazebo, some additional simulation-specific tags must be added to work properly with Gazebo. This tutorial explains the necessary steps to successfully use your URDF-based robot in Gazebo, saving you from having to create a separate SDF file from scratch and duplicating description formats. Under the hood, Gazebo will then convert the URDF to SDF automatically.
 
@@ -19,8 +19,7 @@ Background
 On the implementation side, the URDF syntax breaks proper formatting with heavy use of XML attributes, which in turn makes URDF more inflexible. There is also no mechanism for backward compatibility.
 
 To deal with this issue, a new format called the Simulation Description Format (SDF) was created for use in Gazebo to solve the shortcomings of URDF. SDF is a complete description for everything from the world level down to the robot level. It is scalable, and makes it easy to add and modify elements. The SDF format is itself described using XML, which facilitates a simple upgrade tool to migrate old versions to new versions. It is also self-descriptive.
-
-It is the intention of this author to make URDFs as fully documented and supported in Gazebo as possible, but it is relevant to the reader to understand why the two formats exist and the shortcomings of both. It would be nice if more work was put into URDFs to update them to the current needs of robotics.
+......
 
 #### Summary：
 The URDF served the ROS, it has several notable shortcomings.one is it does not support closed loop chains.
