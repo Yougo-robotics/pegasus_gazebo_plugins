@@ -40,7 +40,7 @@ This closed_loop_plugin just like a button that connects two joints,
 <br>`<child>` the name of child coordinate that added joint
 <br>`<parent>` the name of parent coordinate that added joint
 
-<br>`add to your robot.urdf：`
+`add to your robot.urdf：`
 
 ```XML
      <gazebo>
