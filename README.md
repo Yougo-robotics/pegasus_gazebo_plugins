@@ -1,7 +1,7 @@
 # pegasus_gazebo_plugins
 
 ## Overview
-This is a ROS package developed for our quadruped robot "pegasus" gazebo_plugin ,closed_loop_plugin is one of the plugins only announced here,to solve the issuethat URDF not support Closed loop chains 
+This is pegasus_gazebo_plugins package developed for our quadruped robot "pegasus",closed_loop_plugin is one of the plugins only announced here,to solve the issue that URDF not support Closed loop chains.
 
 *Author: Angel_jj
 <br>*Department ：The Chinese University of Hong Kong,Shenzhen，IRIM(Institute of Robotics and Intelligent Manufacturing)
@@ -23,8 +23,8 @@ To deal with this issue, a new format called the Simulation Description Format (
 
 #### Summary：
 The URDF served the ROS, it has several notable shortcomings.one is it does not support closed loop chains.
-The SDF served the gazebo, support closed loop chains - this can be achieved by allowing two different joints to have the same child link but different parents
-The closed_loop_plugin works after the robot model is converted from urdf to sdf, inserting a new joint into the sdf file of the robot model.
+<br>The SDF served the gazebo, support closed loop chains - this can be achieved by allowing two different joints to have the same child link but different parents
+<br>The closed_loop_plugin works after the robot model is converted from urdf to sdf, inserting a new joint into the SDF.
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram2.png) 
 ## Building
 In order to install the pegasus_gazebo_plugins, clone the latest version from this repository into your catkin workspace and compile the package using ROS.
