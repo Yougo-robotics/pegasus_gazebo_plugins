@@ -8,6 +8,7 @@ This is pegasus_gazebo_plugins package developed for our quadruped robot "Pegasu
 <br>*Maintainer: Angel_jj, 522483402@.qqcom
 
 ## Introduction
+#### Citing
 
 `Tutorial: Using a URDF in Gazebo`http://gazebosim.org/tutorials?tut=ros_urdf&cat=connect_ros
 
