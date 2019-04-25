@@ -1,5 +1,4 @@
 # pegasus_gazebo_plugins
-
 ## Overview
 This is pegasus_gazebo_plugins package developed for our quadruped robot "Pegasus",which is used for Pegasus robots in gazebo simulation and ROS environment.closed_loop_plugin is one of the plugins that open here,to solve the issue that URDF not support Closed loop chains.
 
@@ -65,12 +64,12 @@ The following is a four-link closed-loop chain
 ```
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram1.png) 
 #### note：
-You can change the position where two joints are connected in closed_loop_plugin.cpp
+You can change the position where two joints are connected in `closed_loop_plugin.cpp`
 
 ```cpp
 math::Pose jointOrigin(0.00,0.00,0.00,0.00,-0.00,0.00);
 ```
-math::Pose jointOrigin(x,y,z,roll,pitch,yaw);
+`math::Pose jointOrigin(x,y,z,roll,pitch,yaw);`
 
 ## Bugs & Feature Requests
 Please report bugs and request features using the [Issue Tracker](https://github.com/wojiaojiao/pegasus_gazebo_plugins/issues).
