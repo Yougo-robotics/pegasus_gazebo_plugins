@@ -22,7 +22,7 @@ To deal with this issue, a new format called the Simulation Description Format (
 
 It is the intention of this author to make URDFs as fully documented and supported in Gazebo as possible, but it is relevant to the reader to understand why the two formats exist and the shortcomings of both. It would be nice if more work was put into URDFs to update them to the current needs of robotics.
 
-### Summary：
+#### Summary：
 The URDF served the ROS, it has several notable shortcomings.one is it does not support closed loop chains.
 The SDF served the gazebo, support closed loop chains - this can be achieved by allowing two different joints to have the same child link but different parents
 The closed_loop_plugin works after the robot model is converted from urdf to sdf, inserting a new joint into the sdf file of the robot model.
@@ -52,7 +52,7 @@ This closed_loop_plugin just like a button that connects two joints,
        </plugin>
      </gazebo>
 ```
-### exmaple:
+#### exmaple:
 The following is a four-link closed-loop chain
 ```XML
      <gazebo>
@@ -64,7 +64,7 @@ The following is a four-link closed-loop chain
      </gazebo>
 ```
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram1.png) 
-### note：
+#### note：
 You can change the position where two joints are connected in closed_loop_plugin.cpp
 
 ```cpp
