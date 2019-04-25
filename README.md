@@ -28,6 +28,7 @@ The URDF served the ROS, it has several notable shortcomings.one is it does not 
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram2.png) 
 ## Building
 In order to install the pegasus_gazebo_plugins, clone the latest version from this repository into your catkin workspace and compile the package using ROS.
+
 <br>`cd catkin_workspace/src`
 <br>`git clone https://github.com/wojiaojiao/pegasus_gazebo_plugins.git`
 <br>`cd ../`
@@ -35,9 +36,9 @@ In order to install the pegasus_gazebo_plugins, clone the latest version from th
 
 ## Usage
 This closed_loop_plugin just like a button that connects two joints,
-<br>`\<joint>` the name of the added joint
-<br>`\<child>` the name of child coordinate that added joint
-<br>`\<parent>` the name of parent coordinate that added joint
+<br>`<joint>` the name of the added joint
+<br>`<child>` the name of child coordinate that added joint
+<br>`<parent>` the name of parent coordinate that added joint
 
 <br>`add to your robot.urdf：`
 
