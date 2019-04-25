@@ -9,8 +9,7 @@ This is a ROS package developed for our quadruped robot "pegasus" gazebo_plugin 
 
 ## Introduction
 
-[Tutorial: Using a URDF in Gazebo ](http://gazebosim.org/tutorials?tut=ros_urdf&cat=connect_ros).
-http://gazebosim.org/tutorials?tut=ros_urdf&cat=connect_ros
+'Tutorial: Using a URDF in Gazebo'http://gazebosim.org/tutorials?tut=ros_urdf&cat=connect_ros
 
 The Universal Robotic Description Format (URDF) is an XML file format used in ROS to describe all elements of a robot. To use a URDF file in Gazebo, some additional simulation-specific tags must be added to work properly with Gazebo. This tutorial explains the necessary steps to successfully use your URDF-based robot in Gazebo, saving you from having to create a separate SDF file from scratch and duplicating description formats. Under the hood, Gazebo will then convert the URDF to SDF automatically.
 
