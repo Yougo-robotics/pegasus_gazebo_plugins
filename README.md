@@ -66,7 +66,7 @@ The following is a four-link closed-loop chain
 #### note
 You can change the position where two joints are connected in `closed_loop_plugin.cpp`
 
-<br>`math::Pose jointOrigin(x,y,z,roll,pitch,yaw);`
+`math::Pose jointOrigin(x,y,z,roll,pitch,yaw);`
 ```cpp
 math::Pose jointOrigin(0.00,0.00,0.00,0.00,-0.00,0.00);
 ```
