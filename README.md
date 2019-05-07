@@ -65,7 +65,8 @@ The following is a four-link closed-loop chain
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram1.png) 
 #### note
 You can change the position where two joints are connected in `closed_loop_plugin.cpp`
-`math::Pose jointOrigin(x,y,z,roll,pitch,yaw);`
+
+<br>`math::Pose jointOrigin(x,y,z,roll,pitch,yaw);`
 ```cpp
 math::Pose jointOrigin(0.00,0.00,0.00,0.00,-0.00,0.00);
 ```
