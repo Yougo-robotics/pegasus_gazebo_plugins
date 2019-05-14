@@ -35,7 +35,7 @@ In order to install the pegasus_gazebo_plugins, clone the latest version from th
 <br>`catkin_make`
 
 ## Usage
-This closed_loop_plugin just like a button that connects two joints,
+This closed_loop_plugin just like a button that connects two ,
 <br>`<joint>` the name of the added joint
 <br>`<child>` the name that child coordinate of the added joint 
 <br>`<parent>` the name that parent coordinate of the added joint 
