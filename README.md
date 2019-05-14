@@ -35,7 +35,7 @@ In order to install the pegasus_gazebo_plugins, clone the latest version from th
 <br>`catkin_make`
 
 ## Usage
-This closed_loop_plugin just like a button that connects two ,
+This closed_loop_plugin just like a button that connects two links,
 <br>`<joint>` the name of the added joint
 <br>`<child>` the name that child coordinate of the added joint 
 <br>`<parent>` the name that parent coordinate of the added joint 
@@ -64,7 +64,7 @@ The following is a four-link closed-loop chain
 ```
 <br>![](https://github.com/wojiaojiao/pegasus_gazebo_plugins/raw/master/doc/diagram1.png) 
 #### note
-You can change the position where two s are connected
+You can change the position where two links are connected
 <br>in `closed_loop_plugin.cpp`
 
 `math::Pose jointOrigin(x,y,z,roll,pitch,yaw);`
